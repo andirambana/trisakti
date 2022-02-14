@@ -1,0 +1,54 @@
+#kenapa {
+  background: #e5eefe;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#kenapa .kenapa-h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+#kenapa .kenapa-h5 span {
+  color: #5c78d8;
+}
+
+#kenapa .card {
+  background: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  padding: 15px 50px;
+}
+
+#kenapa .card .card-h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+#kenapa .card .card-p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+  #kenapa .kenapa-h5 {
+    text-align: center;
+  }
+  #kenapa .card {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=kenapa.css.map */

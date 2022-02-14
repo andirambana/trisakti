@@ -1,0 +1,31 @@
+#vokasi {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#vokasi .vokasi-h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+#vokasi .vokasi-h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #5c78d8;
+}
+
+#vokasi .img-vokasi1 {
+  margin-top: 77px;
+}
+
+#vokasi .img-vokasi2 {
+  margin-top: 140px;
+}
+/*# sourceMappingURL=vokasi.css.map */

@@ -1,0 +1,14 @@
+#quotes {
+  background-image: url("../../../img/quotes1.png");
+  padding: 123px 0;
+}
+
+#quotes .quotes-h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #ffffff;
+}
+/*# sourceMappingURL=quotes.css.map */

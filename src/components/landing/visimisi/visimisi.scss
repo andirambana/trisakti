@@ -1,0 +1,48 @@
+#visi-misi {
+  background: #e5eefe;
+  .card {
+    margin-top: 60px;
+    padding: 31px 31px;
+    margin-bottom: 40px;
+    background: #ffffff;
+    border-radius: 10px;
+    height: 460px;
+    hr {
+      border: 2px solid #b2b2b2;
+      width: 100px;
+    }
+    .card-title {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 36px;
+      color: #000000;
+    }
+    .card-body {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 21px;
+      letter-spacing: 0.04em;
+
+      color: #000000;
+    }
+  }
+  @media only screen and (max-width: 952px) {
+    .card {
+      height: 760px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .card {
+      height: 800px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .card {
+      height: 760px;
+    }
+  }
+}

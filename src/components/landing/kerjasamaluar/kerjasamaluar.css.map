@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACd,OAAO,EAAE,MAAM;CAahB;;AAdD,AAEE,eAFa,CAEb,kBAAkB,CAAC;EACjB,WAAW,EAAE,OAAO;EACpB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,IAAI;EACjB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,OAAO;EACd,aAAa,EAAE,IAAI;CAIpB;;AAbH,AAUI,eAVW,CAEb,kBAAkB,CAQhB,IAAI,CAAC;EACH,KAAK,EAAE,OAAO;CACf",
+    "sources": [
+        "kerjasamaluar.scss"
+    ],
+    "names": [],
+    "file": "kerjasamaluar.css"
+}

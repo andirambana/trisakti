@@ -1,0 +1,18 @@
+#kerjasamadalam {
+  padding: 60px 0;
+}
+
+#kerjasamadalam .kerjasamadalam-h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 80px;
+}
+
+#kerjasamadalam .kerjasamadalam-h5 span {
+  color: #5c78d8;
+}
+/*# sourceMappingURL=kerjasamaluar.css.map */

@@ -1,0 +1,34 @@
+.navbar {
+  padding: 18px 0;
+}
+
+.navbar .nav-item .nav-link {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.navbar .nav-item .nav-link:hover {
+  color: #7f9efc;
+}
+
+.navbar .nav-item .active {
+  color: #7f9efc !important;
+}
+
+.navbar .btn-pendaftaran {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: #ffffff;
+  background: #4057b5;
+  border-radius: 6px;
+  width: 160px;
+  height: 56px;
+}
+/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,40 @@
+#faq {
+  padding-top: 60px;
+  padding-bottom: 77px;
+  .faq-h5 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5c78d8;
+  }
+  .faq-p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    span {
+      color: #5c78d8;
+    }
+  }
+  .accordion {
+    margin-top: 66px;
+    .accordion-item {
+      margin-bottom: 24px;
+      border-radius: 8px;
+      .accordion-button {
+        background: #e5eefe;
+        border-radius: 8px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 150%;
+        color: #000000;
+      }
+    }
+  }
+}

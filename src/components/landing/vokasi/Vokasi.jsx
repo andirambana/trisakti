@@ -15,9 +15,6 @@ export default function Vokasi() {
             <div className="col-md-10 mx-auto">
               <img src={Vokasi1} className="img-vokasi1 img-fluid" alt="" />
             </div>
-            <div className="col-md-8 mx-auto">
-              <img src={Vokasi2} className="img-vokasi2 img-fluid" alt="" />
-            </div>
           </div>
         </div>
       </section>

@@ -1,13 +1,35 @@
 import styled from "./visimisi.css";
 import React from "react";
-
+import Direktur from "../../../img/sambutan-rektor.png";
 export default function VisiMisi() {
   return (
     <div>
       <section id="visi-misi">
         <div className="container">
           <div className="row">
-            <div className="col-md-6 mx-auto">
+            <div className="col-md-4 me-auto">
+              <div className="card">
+                <div className="card-title mx-auto">
+                  Sambutan <span>Direktur</span>{" "}
+                </div>
+                <img src={Direktur} alt="" className="img-fluid" />
+                <div className="card-title1">Direktur Vokasi</div>
+                <div className="card-title2">
+                  Prof. Dr. John Doe Loripsum, S.T., M.T
+                </div>
+                <div className="card-text">
+                  lorem ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book. It has survived not only five centuries, but{" "}
+                  <a href="" className="link-direktur">
+                    Selengkapnya...
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-7 ms-auto">
               <div className="card mx-auto">
                 <div className="card-title text-center">Visi</div>
                 <hr className="mx-auto" />
@@ -18,8 +40,6 @@ export default function VisiMisi() {
                   berbudaya dan bereputasi global
                 </div>
               </div>
-            </div>
-            <div className="col-md-6 mx-auto">
               <div className="card mx-auto">
                 <div className="card-title text-center">Misi</div>
                 <hr className="mx-auto" />
@@ -38,8 +58,6 @@ export default function VisiMisi() {
                   lingkup nasional dan internasional
                 </div>
               </div>
-            </div>
-            <div className="col-md-6 mx-auto">
               <div className="card mx-auto">
                 <div className="card-title text-center">Tujuan</div>
                 <hr className="mx-auto" />

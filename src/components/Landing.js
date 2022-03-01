@@ -16,13 +16,13 @@ export default function Landing() {
     <div>
       <Navbar />
       <Carousel />
-      <Vokasi />
       <VisiMisi />
+      <Vokasi />
+      <Media />
       <KerjasamaDalam />
       <KerjasamaLuar />
       <Kenapa />
       <Faq />
-      <Media />
       <Quotes />
       <Footer />
     </div>

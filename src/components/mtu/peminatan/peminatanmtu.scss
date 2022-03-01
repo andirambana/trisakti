@@ -1,0 +1,54 @@
+#peminatan-mtu {
+  background: #c6e9f6;
+  padding: 154px 0;
+  .peminatan-h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+  }
+  .peminatan-h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    color: #286694;
+  }
+  .accordion {
+    .accordion-item {
+      margin-bottom: 24px;
+      background: #e5eefe;
+      border-radius: 8px;
+      border: none;
+      .accordion-header {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150%;
+        color: #000000;
+      }
+      .accordion-body {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 150%;
+        text-align: justify;
+        color: #666666;
+      }
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .peminatan-h1 {
+      text-align: center;
+    }
+    .peminatan-h2 {
+      text-align: center;
+      margin-bottom: 60px;
+    }
+  }
+}

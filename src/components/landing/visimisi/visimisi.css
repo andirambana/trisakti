@@ -8,7 +8,55 @@
   margin-bottom: 40px;
   background: #ffffff;
   border-radius: 10px;
-  height: 460px;
+}
+
+#visi-misi .card .card-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: justify;
+  letter-spacing: 0.015em;
+  color: #000000;
+}
+
+#visi-misi .card .card-text .link-direktur {
+  text-decoration: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: justify;
+  letter-spacing: 0.015em;
+  color: #283a92;
+}
+
+#visi-misi .card .card-title1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  color: #000000;
+  margin-bottom: 6px;
+}
+
+#visi-misi .card .card-title2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  color: #000000;
+}
+
+#visi-misi .card img {
+  margin-bottom: 26px;
+  margin-top: 30px;
 }
 
 #visi-misi .card hr {
@@ -25,6 +73,10 @@
   color: #000000;
 }
 
+#visi-misi .card .card-title span {
+  color: #9fb8fd;
+}
+
 #visi-misi .card .card-body {
   font-family: Poppins;
   font-style: normal;
@@ -33,23 +85,5 @@
   line-height: 21px;
   letter-spacing: 0.04em;
   color: #000000;
-}
-
-@media only screen and (max-width: 952px) {
-  #visi-misi .card {
-    height: 760px;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  #visi-misi .card {
-    height: 800px;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  #visi-misi .card {
-    height: 760px;
-  }
 }
 /*# sourceMappingURL=visimisi.css.map */

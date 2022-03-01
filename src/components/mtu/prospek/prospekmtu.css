@@ -1,0 +1,35 @@
+#prospek-mtu .prospek-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  margin-top: 60px;
+}
+
+#prospek-mtu .prospek-h1 span {
+  color: #286694;
+}
+
+#prospek-mtu .card {
+  margin-bottom: 73px;
+  margin-top: 61px;
+  border: none;
+}
+
+#prospek-mtu .card:hover {
+  -webkit-filter: drop-shadow(14px 16px 19px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(14px 16px 19px rgba(0, 0, 0, 0.25));
+}
+
+#prospek-mtu .card .card-body .card-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 22px;
+  color: #000000;
+}
+/*# sourceMappingURL=prospekmtu.css.map */

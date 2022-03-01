@@ -17,8 +17,8 @@ export default function KerjasamaLuar() {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 5,
+    slidesToScroll: 5,
     initialSlide: 0,
     responsive: [
       {

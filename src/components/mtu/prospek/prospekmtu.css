@@ -16,11 +16,15 @@
   margin-bottom: 73px;
   margin-top: 61px;
   border: none;
+  -webkit-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 #prospek-mtu .card:hover {
   -webkit-filter: drop-shadow(14px 16px 19px rgba(0, 0, 0, 0.25));
           filter: drop-shadow(14px 16px 19px rgba(0, 0, 0, 0.25));
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 #prospek-mtu .card .card-body .card-title {

@@ -1,0 +1,47 @@
+#kurikulum-mlm {
+  background: #c7945e;
+  margin-top: 35px;
+  padding-bottom: 60px;
+  .btn-kurikulum {
+    background: #8f572f;
+    border-color: #8f572f;
+    border-radius: 8px;
+    width: 200px;
+    height: 80px;
+    &:hover {
+      background-color: #ddb785;
+      border-color: #ddb785;
+    }
+  }
+  .kurikulum {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-top: 60px;
+    margin-bottom: 117px;
+  }
+  .card {
+    background: #ffffff;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 42px;
+    transition: 0.3s ease-in-out;
+    .card-body {
+      span {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        color: #000000;
+      }
+    }
+    &:hover {
+      filter: drop-shadow(14px 16px 19px rgba(0, 0, 0, 0.25));
+      transform: scale(1.05);
+    }
+  }
+}

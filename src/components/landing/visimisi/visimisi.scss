@@ -51,6 +51,7 @@
     margin-bottom: 40px;
     background: #ffffff;
     border-radius: 10px;
+    border: 0;
     hr {
       border: 2px solid #b2b2b2;
       width: 100px;
@@ -72,7 +73,7 @@
       font-weight: normal;
       font-size: 14px;
       line-height: 21px;
-      letter-spacing: 0.04em;
+      text-align: justify;
 
       color: #000000;
     }

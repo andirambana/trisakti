@@ -6,7 +6,7 @@ import Mtu from "./components/Mtu";
 function App() {
   return (
     <>
-      <Mtu />
+      <Landing />
     </>
   );
 }

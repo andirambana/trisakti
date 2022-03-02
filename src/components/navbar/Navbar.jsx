@@ -27,12 +27,7 @@ export default function Navbar() {
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
-                  Beranda
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Visi dan Misi
+                  BERANDA
                 </a>
               </li>
               <li className="nav-item dropdown">
@@ -44,22 +39,22 @@ export default function Navbar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Program Studi
+                  PROFIL
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
                     <a className="dropdown-item" href="#">
-                      Transportasi Udara
+                      Tentang Kami
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      Transportasi Laut
+                      Sambutan Rektor
                     </a>
                   </li>
                   <li>
                     <a className="dropdown-item" href="#">
-                      Logistik dan Material
+                      Struktur Organisasi
                     </a>
                   </li>
                 </ul>
@@ -73,7 +68,7 @@ export default function Navbar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Profil
+                  PROGRAM STUDI
                 </a>
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
@@ -95,12 +90,17 @@ export default function Navbar() {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Kontak
+                  VISI & MISI
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  TLM
                 </a>
               </li>
             </ul>
             <button className="btn btn-primary btn-pendaftaran" type="submit">
-              Pendaftaran
+              PENDAFTARAN
             </button>
           </div>
         </div>

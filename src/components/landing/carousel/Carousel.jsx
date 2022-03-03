@@ -19,6 +19,18 @@ export default function Carousel() {
             sektor agar memberikan lebih banyak dampak positif baik terhadap
             lingkungan, sosial, dan ekonomi.
           </p>
+          <h5>Inkubator Usaha Sosial</h5>
+          <p>
+            Disinilah ruang untuk mendukung para pelaku wirausaha sosial lintas
+            sektor agar memberikan lebih banyak dampak positif baik terhadap
+            lingkungan, sosial, dan ekonomi.
+          </p>
+          <h5>Inkubator Usaha Sosial</h5>
+          <p>
+            Disinilah ruang untuk mendukung para pelaku wirausaha sosial lintas
+            sektor agar memberikan lebih banyak dampak positif baik terhadap
+            lingkungan, sosial, dan ekonomi.
+          </p>
           {/* <Link to="/donate"> */}
           <button type="button" className="btn btn-primary">
             Donasi Sekarang

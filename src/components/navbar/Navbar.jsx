@@ -93,7 +93,7 @@ export default function Navbar() {
                   VISI & MISI
                 </a>
               </li>
-              <li className="nav-item ps-3 pe-3">
+              <li className="nav-item ps-3 pe-3 ">
                 <a className="nav-link" href="#">
                   TLM
                 </a>

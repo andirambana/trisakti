@@ -8,7 +8,7 @@ import Mtl from "./components/Mtl";
 function App() {
   return (
     <>
-      <Landing />
+      <Mtl />
     </>
   );
 }

@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "./carousel.css";
-import jumbo1 from "./../../../img/jumbo.jpg";
-import jumbo2 from "./../../../img/carousel2.jpg";
-import jumbo3 from "./../../../img/carousel3.jpg";
+import jumbo1 from "./../../../img/carousel-mlm.png";
+import jumbo2 from "./../../../img/carousel-mtl.png";
+import jumbo3 from "./../../../img/carousel-mtu.png";
 // import { Link } from "react-router-dom";
 // import { useNavigate } from "react-router-dom";
 export default function Carousel() {
@@ -45,9 +45,9 @@ export default function Carousel() {
             lingkungan, sosial, dan ekonomi.
           </p>
           {/* <Link to="/donate"> */}
-            <button type="button" className="btn btn-primary">
-              Donasi Sekarang
-            </button>
+          <button type="button" className="btn btn-primary">
+            Donasi Sekarang
+          </button>
           {/* </Link> */}
         </div>
         <div className="carousel-item active">

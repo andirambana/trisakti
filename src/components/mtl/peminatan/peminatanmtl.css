@@ -1,0 +1,43 @@
+#peminatan-mtl {
+  padding: 154px 0;
+  background-color: #B0C7EE;
+}
+
+#peminatan-mtl .peminatan-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+
+#peminatan-mtl .peminatan-h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  color: #51699E;
+}
+
+#peminatan-mtl .card {
+  margin-top: 78px;
+  background: #ffffff;
+  -webkit-box-shadow: 14px 16px 19px rgba(0, 0, 0, 0.25);
+          box-shadow: 14px 16px 19px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  border: 0px;
+}
+
+#peminatan-mtl .card .card-body .card-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  width: 174px;
+  color: #000000;
+}
+/*# sourceMappingURL=peminatanmtl.css.map */

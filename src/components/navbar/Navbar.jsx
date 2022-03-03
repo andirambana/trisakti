@@ -25,12 +25,12 @@ export default function Navbar() {
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li className="nav-item">
+              <li className="nav-item ps-3 pe-3">
                 <a className="nav-link active" aria-current="page" href="#">
                   BERANDA
                 </a>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item dropdown ps-3 pe-3">
                 <a
                   className="nav-link dropdown-toggle"
                   href="#"
@@ -59,7 +59,7 @@ export default function Navbar() {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item dropdown ps-3 pe-3">
                 <a
                   className="nav-link dropdown-toggle"
                   href="#"
@@ -88,7 +88,7 @@ export default function Navbar() {
                   </li>
                 </ul>
               </li>
-              <li className="nav-item">
+              <li className="nav-item ps-3 pe-3">
                 <a className="nav-link" href="#">
                   VISI & MISI
                 </a>

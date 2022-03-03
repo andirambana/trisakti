@@ -8,7 +8,7 @@ export default function VisiMisi() {
         <div className="container">
           <div className="row">
             <div className="col-md-4 me-auto">
-              <div className="card">
+              <div className="card shadow">
                 <div className="card-title mx-auto">
                   Sambutan <span>Direktur</span>{" "}
                 </div>
@@ -30,7 +30,7 @@ export default function VisiMisi() {
               </div>
             </div>
             <div className="col-md-7 ms-auto">
-              <div className="card mx-auto">
+              <div className="card mx-auto shadow-sm">
                 <div className="card-title text-center">Visi</div>
                 <hr className="mx-auto" />
                 <div className="card-body">
@@ -40,7 +40,7 @@ export default function VisiMisi() {
                   berbudaya dan bereputasi global
                 </div>
               </div>
-              <div className="card mx-auto">
+              <div className="card mx-auto shadow-sm mt-1">
                 <div className="card-title text-center">Misi</div>
                 <hr className="mx-auto" />
                 <div className="card-body">
@@ -52,13 +52,13 @@ export default function VisiMisi() {
                   bidang manajemen transportasi laut, manajemen transportasi
                   udara dan manajemen logistik dan material sesuai kebutuhan
                   bangsa dan dunia <br /> <br />
-                  3. Melaksanakan pelayanan pelatihan , konsultasi , dan
+                  3. Melaksanakan pelayanan pelatihan, konsultasi, dan
                   memberikan masukan kepada pemerintah dan pelaku industri
                   terhadap upaya untuk mengatasi maslalah transportasi laut
                   lingkup nasional dan internasional
                 </div>
               </div>
-              <div className="card mx-auto">
+              <div className="card mx-auto shadow-sm mt-1">
                 <div className="card-title text-center">Tujuan</div>
                 <hr className="mx-auto" />
                 <div className="card-body">

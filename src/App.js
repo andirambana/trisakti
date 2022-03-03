@@ -7,7 +7,7 @@ import Mlm from "./components/Mlm";
 function App() {
   return (
     <>
-      <Mlm />
+      <Landing />
     </>
   );
 }

@@ -1,0 +1,35 @@
+#prospek-mlm {
+  .prospek-h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    margin-top: 60px;
+    span {
+      color: #ab7444;
+    }
+  }
+  .card {
+    margin-bottom: 73px;
+    margin-top: 61px;
+    border: none;
+    transition: 0.4s ease-in-out;
+    &:hover {
+      filter: drop-shadow(14px 16px 19px rgba(0, 0, 0, 0.25));
+      transform: scale(1.05);
+    }
+    .card-body {
+      .card-title {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 22px;
+        color: #000000;
+      }
+    }
+  }
+}

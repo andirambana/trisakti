@@ -27,6 +27,8 @@
   border-radius: 8px;
   border: none;
   margin-bottom: 42px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 #kurikulum .card .card-body span {
@@ -36,5 +38,12 @@
   font-size: 14px;
   line-height: 21px;
   color: #000000;
+}
+
+#kurikulum .card:hover {
+  -webkit-filter: drop-shadow(14px 16px 19px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(14px 16px 19px rgba(0, 0, 0, 0.25));
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 /*# sourceMappingURL=kurikulum.css.map */

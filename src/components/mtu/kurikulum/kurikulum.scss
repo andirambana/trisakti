@@ -23,6 +23,7 @@
     border-radius: 8px;
     border: none;
     margin-bottom: 42px;
+    transition: 0.3s ease-in-out;
     .card-body {
       span {
         font-family: Poppins;
@@ -32,6 +33,10 @@
         line-height: 21px;
         color: #000000;
       }
+    }
+    &:hover {
+      filter: drop-shadow(14px 16px 19px rgba(0, 0, 0, 0.25));
+      transform: scale(1.05);
     }
   }
 }

@@ -1,6 +1,19 @@
 .navbar {
   padding: 18px 0;
   .nav-item {
+    .dropdown-menu {
+      .dropdown-item {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        &:hover {
+          color: #7f9efc;
+        }
+      }
+    }
     .nav-link {
       font-family: Poppins;
       font-style: normal;

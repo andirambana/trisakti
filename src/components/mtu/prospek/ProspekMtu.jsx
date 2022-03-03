@@ -17,7 +17,7 @@ export default function ProspekMtu() {
             </h1>
           </div>
           <div className="row">
-            <div className="col-md-3 me-auto">
+            <div className="col-md-2 mx-auto">
               <div className="card">
                 <div className="card-body text-center">
                   <img src={Prospek1} alt="" />
@@ -25,7 +25,7 @@ export default function ProspekMtu() {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 mx-auto">
+            <div className="col-md-2 mx-auto">
               <div className="card">
                 <div className="card-body text-center">
                   <img src={Prospek2} alt="" />
@@ -33,7 +33,7 @@ export default function ProspekMtu() {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 ms-auto">
+            <div className="col-md-2 mx-auto">
               <div className="card">
                 <div className="card-body text-center">
                   <img src={Prospek3} alt="" />
@@ -43,7 +43,7 @@ export default function ProspekMtu() {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-3 me-auto">
+            <div className="col-md-2 mx-auto">
               <div className="card">
                 <div className="card-body text-center">
                   <img src={Prospek4} alt="" />
@@ -51,7 +51,7 @@ export default function ProspekMtu() {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 mx-auto">
+            <div className="col-md-2 mx-auto">
               <div className="card">
                 <div className="card-body text-center">
                   <img src={Prospek5} alt="" />
@@ -59,7 +59,7 @@ export default function ProspekMtu() {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 ms-auto">
+            <div className="col-md-2 mx-auto">
               <div className="card">
                 <div className="card-body text-center">
                   <img src={Prospek6} alt="" />

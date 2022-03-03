@@ -23,7 +23,6 @@ export default function Landing() {
       <KerjasamaLuar />
       <Kenapa />
       <Faq />
-      <Quotes />
       <Footer />
     </div>
   );

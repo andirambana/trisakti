@@ -24,14 +24,22 @@ export default function VisiMlm() {
                 <div className="card-title">Misi</div>
                 <hr className="mx-auto" />
                 <div className="card-body">
-                  1.Menyelenggarakan pendidikan dan pengajaran yang efektif dan
-                  efisien di bidang Manajemen Logistik dan Material. <br />
-                  2.Mengembangkan kemampuan intelektual melalui penelitian dan
-                  pengkajian bidang Manajemen Logistik dan Material. <br />
-                  3.Melaksanakan kegiatan pengabdian masyarakat dalam bidang
-                  Manajemen Logistik dan Material. Membangun Jaringan eksternal
-                  yang bersifat Nasional maupun Internasional yang akan
-                  mendukung percapaian visi program studi.
+                  <ol type="1">
+                    <li>
+                      Menyelenggarakan pendidikan dan pengajaran yang efektif
+                      dan efisien di bidang Manajemen Logistik dan Material.
+                    </li>
+                    <li>
+                      Mengembangkan kemampuan intelektual melalui penelitian dan
+                      pengkajian bidang Manajemen Logistik dan Material.
+                    </li>
+                    <li>
+                      Melaksanakan kegiatan pengabdian masyarakat dalam bidang
+                      Manajemen Logistik dan Material. Membangun Jaringan
+                      eksternal yang bersifat Nasional maupun Internasional yang
+                      akan mendukung percapaian visi program studi.
+                    </li>
+                  </ol>
                 </div>
               </div>
             </div>

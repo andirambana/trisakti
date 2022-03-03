@@ -15,26 +15,33 @@ export default function VisiMtl() {
                 <div className="card-title">Visi</div>
                 <hr className="mx-auto" />
                 <div className="card-body">
-                  Pada tahun 2027, Menjadi Program Studi yang
-                  Unggul dalam Membangun Ahli Madya dibidang
-                  Manajemen Oprasi dan PelayananTransportasi Laut Yang
-                  Bereputasi Global
+                  Pada tahun 2027, Menjadi Program Studi yang Unggul dalam
+                  Membangun Ahli Madya dibidang Manajemen Oprasi dan
+                  PelayananTransportasi Laut Yang Bereputasi Global
                 </div>
               </div>
               <div className="card">
                 <div className="card-title">Misi</div>
                 <hr className="mx-auto" />
                 <div className="card-body">
-                1. Menyelenggarakan proses pembelajaran manajemen operasi dan 
-                pelayanan transportasi laut berdasarkan
-                Standar Mutu Nasional dan Internasional <br />
-                2. Menyelenggarakan penelitian dan kajian pengetahuan
-                baru dibidang manajemen oprasi dan pelayanan
-                transportasi laut sesuai kebutuhan bangsa dan dunia <br />
-                3. Melaksanakan pelayanan pelatihan , konsultasi , dan
-                memberikan masukan kepada pemerintah dan pelaku
-                industri terhadap upaya untuk mengatasi maslalah
-                transportasi laut lingkup nasional dan internasional
+                  <ol type="1">
+                    <li>
+                      Menyelenggarakan proses pembelajaran manajemen operasi dan
+                      pelayanan transportasi laut berdasarkan Standar Mutu
+                      Nasional dan Internasional.
+                    </li>
+                    <li>
+                      Menyelenggarakan penelitian dan kajian pengetahuan baru
+                      dibidang manajemen oprasi dan pelayanan transportasi laut
+                      sesuai kebutuhan bangsa dan dunia.
+                    </li>
+                    <li>
+                      Melaksanakan pelayanan pelatihan , konsultasi , dan
+                      memberikan masukan kepada pemerintah dan pelaku industri
+                      terhadap upaya untuk mengatasi maslalah transportasi laut
+                      lingkup nasional dan internasional.
+                    </li>
+                  </ol>
                 </div>
               </div>
             </div>

@@ -24,27 +24,43 @@ export default function Visimtu() {
                 <div className="card-title">Misi</div>
                 <hr className="mx-auto" />
                 <div className="card-body">
-                  1.Menyelenggarakan pendidikan dan pengajaran yang efektif dan
-                  efisien di bidang Manajemen Transportasi Udara. <br />
-                  2.Mengembangkan kemampuan intelektual melalui penelitian dan
-                  pengkajian bidang <br />
-                  3.Manajemen Transportasi Udara. Melaksanakan kegiatan
-                  pengabdian masyarakat dalam bidang Manajemen Transportasi
-                  Udara.
+                  <ol type="1">
+                    <li>
+                      Menyelenggarakan pendidikan dan pengajaran yang efektif
+                      dan efisien di bidang Manajemen Transportasi Udara.
+                    </li>
+                    <li>
+                      Mengembangkan kemampuan intelektual melalui penelitian dan
+                      pengkajian bidang.
+                    </li>
+                    <li>
+                      Manajemen Transportasi Udara. Melaksanakan kegiatan
+                      pengabdian masyarakat dalam bidang Manajemen Transportasi
+                      Udara.
+                    </li>
+                  </ol>
                 </div>
               </div>
               <div className="card">
                 <div className="card-title">Tujuan</div>
                 <hr className="mx-auto" />
                 <div className="card-body">
-                  1.Menghasilkan lulusan profesional ahli madya bidang manajemen
-                  transportasi udara yang memiliki kompetensi dan integritas
-                  keilmuan maupun keahlian yang berkualitas, disiplin dan
-                  berbudi pekerti tinggi. <br /> 2.Menyiapkan lulusan yang
-                  memiliki kecerdasan intelektual, emosional, spiritual dan
-                  mampu bersaing secara global. <br /> 3.Menghasilkan
-                  karya-karya yang inovatif dan berdaya guna untuk pengembangan
-                  Manajemen Transportasi Udara
+                  <ol type="1">
+                    <li>
+                      Menghasilkan lulusan profesional ahli madya bidang
+                      manajemen transportasi udara yang memiliki kompetensi dan
+                      integritas keilmuan maupun keahlian yang berkualitas,
+                      disiplin dan berbudi pekerti tinggi.
+                    </li>
+                    <li>
+                      Menyiapkan lulusan yang memiliki kecerdasan intelektual,
+                      emosional, spiritual dan mampu bersaing secara global
+                    </li>
+                    <li>
+                      Menghasilkan karya-karya yang inovatif dan berdaya guna
+                      untuk pengembangan Manajemen Transportasi Udara.
+                    </li>
+                  </ol>
                 </div>
               </div>
             </div>

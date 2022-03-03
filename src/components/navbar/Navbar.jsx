@@ -5,6 +5,7 @@ import Icon2 from "../../img/icon-2.png";
 import Icon3 from "../../img/icon-3.png";
 import Icon4 from "../../img/icon-4.png";
 import styled from "./navbar.css";
+import { Link, NavLink } from "react-router-dom";
 export default function Navbar() {
   return (
     <div>
@@ -25,9 +26,12 @@ export default function Navbar() {
         </div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container">
-            <a className="navbar-brand" href="#">
+            <NavLink to="/" className="navbar-brand">
               <img src={Logo} alt="" srcset="" />
-            </a>
+            </NavLink>
+            {/* <a className="navbar-brand" href="#">
+              <img src={Logo} alt="" srcset="" />
+            </a> */}
             <button
               className="navbar-toggler"
               type="button"
@@ -45,34 +49,45 @@ export default function Navbar() {
             >
               <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li className="nav-item ps-3 pe-3">
-                  <a className="nav-link active" aria-current="page" href="#">
+                  <NavLink
+                    to="/"
+                    className="nav-link"
+                    activeClassName="nav-link-active"
+                    aria-current="page"
+                  >
                     BERANDA
-                  </a>
+                  </NavLink>
+                  {/* <a className="nav-link active" aria-current="page" href="#">
+                    BERANDA
+                  </a> */}
                 </li>
                 <li className="nav-item dropdown ps-3 pe-3">
-                  <a
+                  <NavLink
+                    to="#"
                     className="nav-link dropdown-toggle"
-                    href="#"
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                     PROFIL
-                  </a>
+                  </NavLink>
                   <ul
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
                   >
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <NavLink className="dropdown-item" to="/tentang-kami">
                         Tentang Kami
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <NavLink
+                        className="dropdown-item"
+                        to="/sambutan-direktur"
+                      >
                         Sambutan Rektor
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
                       <a className="dropdown-item" href="#">
@@ -82,34 +97,43 @@ export default function Navbar() {
                   </ul>
                 </li>
                 <li className="nav-item dropdown ps-3 pe-3">
-                  <a
+                  <NavLink
                     className="nav-link dropdown-toggle"
-                    href="#"
+                    to="#"
                     id="navbarDropdown"
                     role="button"
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
                     PROGRAM STUDI
-                  </a>
+                  </NavLink>
                   <ul
                     className="dropdown-menu"
                     aria-labelledby="navbarDropdown"
                   >
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <NavLink
+                        className="dropdown-item"
+                        to="/manajemen-transportasi-udara"
+                      >
                         Transportasi Udara
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <NavLink
+                        className="dropdown-item"
+                        to="/manajemen-transportasi-laut"
+                      >
                         Transportasi Laut
-                      </a>
+                      </NavLink>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <NavLink
+                        className="dropdown-item"
+                        to="/manajemen-transportasi-logistik"
+                      >
                         Logistik dan Material
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </li>

@@ -34,6 +34,10 @@
           &:hover {
             color: #7f9efc;
           }
+          &:active {
+            background-color: #7f9efc;
+            color: #ffffff;
+          }
         }
       }
       .nav-link {
@@ -47,9 +51,11 @@
           color: #7f9efc;
         }
       }
-
-      .active {
+      .nav-link-active {
         color: #7f9efc !important;
+        &:active {
+          background-color: #000000;
+        }
       }
     }
     .btn-pendaftaran {

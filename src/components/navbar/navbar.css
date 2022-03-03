@@ -38,6 +38,11 @@
   color: #7f9efc;
 }
 
+#navbar .navbar .nav-item .dropdown-menu .dropdown-item:active {
+  background-color: #7f9efc;
+  color: #ffffff;
+}
+
 #navbar .navbar .nav-item .nav-link {
   font-family: Poppins;
   font-style: normal;
@@ -51,8 +56,12 @@
   color: #7f9efc;
 }
 
-#navbar .navbar .nav-item .active {
+#navbar .navbar .nav-item .nav-link-active {
   color: #7f9efc !important;
+}
+
+#navbar .navbar .nav-item .nav-link-active:active {
+  background-color: #000000;
 }
 
 #navbar .navbar .btn-pendaftaran {

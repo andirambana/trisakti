@@ -10,25 +10,29 @@ import Tlm from "./components/Tlm";
 import Organisasi from "./components/Organisasi";
 import { render } from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Kkmtu from "./components/Kkmtu";
 function App() {
-  return(
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route path="/" exact element={<Landing />}></Route>
-    //     <Route path="/manajemen-transportasi-udara" element={<Mtu />}></Route>
-    //     <Route path="/manajemen-transportasi-laut" element={<Mtl />}></Route>
-    //     <Route
-    //       path="/manajemen-transportasi-logistik"
-    //       element={<Mlm />}
-    //     ></Route>
-    //     <Route path="/tentang-kami" element={<About />}></Route>
-    //     <Route path="/sambutan-direktur" element={<Direktur />}></Route>
-    //   </Routes>
-    // </BrowserRouter>,
-    // document.getElementById("root")
-    <>
-      <Organisasi />
-    </>
+  render(
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" exact element={<Landing />}></Route>
+        <Route path="/manajemen-transportasi-udara" element={<Mtu />}></Route>
+        <Route path="/manajemen-transportasi-laut" element={<Mtl />}></Route>
+        <Route
+          path="/manajemen-transportasi-logistik"
+          element={<Mlm />}
+        ></Route>
+        <Route path="/tentang-kami" element={<About />}></Route>
+        <Route path="/sambutan-direktur" element={<Direktur />}></Route>
+        <Route path="/struktur-organisasi" element={<Organisasi />}></Route>
+        <Route path="/tlm-vokasi" element={<Kkmtu />}></Route>
+        <Route path="/kurikulum-mtu" element={<Tlm />}></Route>
+      </Routes>
+    </BrowserRouter>,
+    document.getElementById("root")
+    // <>
+    //   <Organisasi />
+    // </>
     
   );
 }

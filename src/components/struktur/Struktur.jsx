@@ -16,8 +16,8 @@ export default function TlmVokasi() {
                         <div className="card-title text-center">
                             Struktur Organisasi Vokasi
                         </div>
-                            <img src={Gambar1} alt="" className="img-fluid w-75 mx-auto"/>
-                        <div className="card-title text-center">
+                            <img src={Gambar1} alt="" className="img-fluid w-75 mb-5 mx-auto"/>
+                        <div className="card-title text-center mt-5">
                             Direktorat Vokasi
                         </div>
                             <img src={Gambar2} alt="" className="img-fluid mx-auto"/>

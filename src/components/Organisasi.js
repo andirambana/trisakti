@@ -6,7 +6,9 @@ import Struktur from './struktur/Struktur'
 export default function Organisasi() {
   return (
     <div>
+        <Navbar />
         <Struktur />
+        <Footer />
     </div>
   )
 }

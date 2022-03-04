@@ -1,0 +1,61 @@
+#tentang-kami {
+  background: #e5eefe;
+}
+
+#tentang-kami .card {
+  margin: 60px 0;
+  border-color: white;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+#tentang-kami .card .card-body {
+  padding: 60px;
+}
+
+#tentang-kami .card .card-body img {
+  margin-bottom: 50px;
+}
+
+#tentang-kami .card .card-body #right {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: justify;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
+#tentang-kami .card .card-body #right span {
+  color: #5c78d8;
+}
+
+#tentang-kami .card .card-body #right .tentang {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: justify;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
+#tentang-kami .card .card-body .card-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  margin-bottom: 80px;
+  text-align: center;
+  color: #000000;
+}
+
+#tentang-kami .card .card-body .card-title span {
+  color: #7f9efc;
+}
+/*# sourceMappingURL=tentangkami.css.map */

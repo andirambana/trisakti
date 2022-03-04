@@ -1,8 +1,31 @@
-.navbar {
+#navbar #nav {
+  border-bottom: #5c78d8 1px solid;
+}
+
+#navbar #left {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+  padding: 11px;
+  color: #000000;
+}
+
+#navbar #left span {
+  color: #5c78d8;
+}
+
+#navbar #right img {
+  padding: 11px;
+}
+
+#navbar .navbar {
   padding: 18px 0;
 }
 
-.navbar .nav-item .dropdown-menu .dropdown-item {
+#navbar .navbar .nav-item .dropdown-menu .dropdown-item {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -11,11 +34,16 @@
   color: #000000;
 }
 
-.navbar .nav-item .dropdown-menu .dropdown-item:hover {
+#navbar .navbar .nav-item .dropdown-menu .dropdown-item:hover {
   color: #7f9efc;
 }
 
-.navbar .nav-item .nav-link {
+#navbar .navbar .nav-item .dropdown-menu .dropdown-item:active {
+  background-color: #7f9efc;
+  color: #ffffff;
+}
+
+#navbar .navbar .nav-item .nav-link {
   font-family: Poppins;
   font-style: normal;
   font-weight: bold;
@@ -24,15 +52,19 @@
   color: #000000;
 }
 
-.navbar .nav-item .nav-link:hover {
+#navbar .navbar .nav-item .nav-link:hover {
   color: #7f9efc;
 }
 
-.navbar .nav-item .active {
+#navbar .navbar .nav-item .nav-link-active {
   color: #7f9efc !important;
 }
 
-.navbar .btn-pendaftaran {
+#navbar .navbar .nav-item .nav-link-active:active {
+  background-color: #000000;
+}
+
+#navbar .navbar .btn-pendaftaran {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;

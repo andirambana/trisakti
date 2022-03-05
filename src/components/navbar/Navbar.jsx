@@ -167,17 +167,17 @@ export default function Navbar() {
                     <li>
                       <NavLink
                         className="dropdown-item"
-                        to="/manajemen-transportasi-laut"
+                        to="/kurikulum-mtl"
                       >
-                        Transportasi Laut
+                        Kurikulum MTL
                       </NavLink>
                     </li>
                     <li>
                       <NavLink
                         className="dropdown-item"
-                        to="/manajemen-transportasi-logistik"
+                        to="/kurikulum-mlm"
                       >
-                        Logistik dan Material
+                        Kurikulum MLM
                       </NavLink>
                     </li>
                   </ul>

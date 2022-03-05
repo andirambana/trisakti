@@ -11,6 +11,8 @@ import Organisasi from "./components/Organisasi";
 import { render } from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Kkmtu from "./components/Kkmtu";
+import Kkmtl from "./components/Kkmtl";
+import Kkmlm from "./components/Kkmlm";
 function App() {
   render(
     <BrowserRouter>
@@ -25,8 +27,10 @@ function App() {
         <Route path="/tentang-kami" element={<About />}></Route>
         <Route path="/sambutan-direktur" element={<Direktur />}></Route>
         <Route path="/struktur-organisasi" element={<Organisasi />}></Route>
-        <Route path="/tlm-vokasi" element={<Kkmtu />}></Route>
-        <Route path="/kurikulum-mtu" element={<Tlm />}></Route>
+        <Route path="/tlm-vokasi" element={<Tlm />}></Route>
+        <Route path="/kurikulum-mtu" element={<Kkmtu />}></Route>
+        <Route path="/kurikulum-mtl" element={<Kkmtl />}></Route>
+        <Route path="/kurikulum-mlm" element={<Kkmlm />}></Route>
       </Routes>
     </BrowserRouter>,
     document.getElementById("root")

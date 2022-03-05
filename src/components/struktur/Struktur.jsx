@@ -6,7 +6,7 @@ import styled from "./struktur.css";
 export default function TlmVokasi() {
   return (
     <div>
-        <section id="tlm">
+        <section id="struktur">
         <div className="container">
           <div className="row">
             <div className="col-md-12">

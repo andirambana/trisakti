@@ -22,17 +22,18 @@ export default function Footer() {
             </div>
             <div className="col-md-3 mx-auto mb-5">
               <h5 className="footer-h5">Program Studi</h5>
-              <Link to="/manajemen-transportasi-logistik" className="link-a">
-                Manajemen Logistik dan Material
-              </Link>{" "}
+              <Link to="/manajemen-transportasi-udara" className="link-a">
+                Manajemen Transportasi Udara
+              </Link>
               <br />
               <Link to="/manajemen-transportasi-laut" className="link-a">
                 Manajemen Transportasi Laut
               </Link>{" "}
               <br />
-              <Link to="/manajemen-transportasi-udara" className="link-a">
-                Manajemen Transportasi Udara
-              </Link>
+              <Link to="/manajemen-transportasi-logistik" className="link-a">
+                Manajemen Logistik dan Material
+              </Link>{" "}
+              
             </div>
             <div className="col-md-2 mx-auto mb-5">
               <h5 className="footer-h5">Kontak Kami</h5>

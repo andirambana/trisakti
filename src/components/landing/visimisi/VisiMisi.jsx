@@ -1,6 +1,6 @@
 import styled from "./visimisi.css";
 import React from "react";
-import Direktur from "../../../img/direktur-vokasi-1.png";
+import Direktur from "../../../img/foto-direktur.png";
 import { Link } from "react-router-dom";
 export default function VisiMisi() {
   return (

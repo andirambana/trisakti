@@ -1,10 +1,88 @@
-.carousel {
+#carousel-landing {
   .carousel-inner {
     .carousel-item {
-      background-color: black;
-      img {
-        object-fit: cover;
-        opacity: 0.5;
+      background: #000000;
+      .gmbr {
+        opacity: 0.8;
+      }
+      .link-btn {
+        text-decoration: none;
+        .card {
+          margin-top: 200px;
+
+          #right {
+            margin-left: 5px;
+          }
+          #left {
+            margin-left: 20px;
+          }
+          .card-title {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+            text-align: left;
+          }
+          .card-title-1 {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 11px;
+            line-height: 24px;
+            color: #286694;
+            text-align: left;
+          }
+          .card-title-2 {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 11px;
+            line-height: 24px;
+            color: #fa8a47;
+            text-align: left;
+          }
+          .card-title-3 {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 11px;
+            line-height: 24px;
+            color: #ab2c4a;
+            text-align: left;
+          }
+        }
+      }
+
+      .carousel-caption {
+        margin-bottom: -20px;
+        .carousel-landing-h5 {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 40px;
+          line-height: 60px;
+          /* identical to box height */
+
+          text-align: center;
+
+          color: #ffffff;
+        }
+        .carousel-landing-h4 {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 40px;
+          line-height: 60px;
+          /* identical to box height */
+
+          text-align: center;
+
+          /* PRIMARY/400 */
+
+          color: #9fb8fd;
+        }
       }
     }
   }

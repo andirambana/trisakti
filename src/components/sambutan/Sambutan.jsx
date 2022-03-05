@@ -1,5 +1,5 @@
 import React from "react";
-import About from "../../img/direktur-vokasi-1.png";
+import About from "../../img/foto-direktur.png";
 import styled from "./sambutan.css";
 export default function Sambutan() {
   return (

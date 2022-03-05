@@ -1,1 +1,39 @@
-/* No CSS *//*# sourceMappingURL=carouselmtu.css.map */
+#carousel-mtu .carousel-inner .carousel-item .carousel-caption {
+  margin-bottom: 250px;
+}
+
+#carousel-mtu .carousel-inner .carousel-item .carousel-caption .mtu-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 90px;
+  /* identical to box height */
+  text-align: left;
+  color: #ffffff;
+}
+
+#carousel-mtu .carousel-inner .carousel-item .carousel-caption .mtu-h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 90px;
+  color: #c6e9f6;
+  text-align: left;
+}
+
+#carousel-mtu .carousel-inner .carousel-item .carousel-caption .mtu-h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 90px;
+  text-align: left;
+  color: #ffffff;
+}
+
+#carousel-mtu .carousel-inner .carousel-item .carousel-caption .mtu-h3 span {
+  color: #9fb8fd;
+}
+/*# sourceMappingURL=carouselmtu.css.map */

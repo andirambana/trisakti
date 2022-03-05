@@ -6,7 +6,7 @@ export default function Media() {
       <section id="media">
         <div className="container">
           <div className="row">
-            <div className="col-md-5 me-auto my-auto">
+            <div className="col-md-6 mb-5 me-auto my-auto">
               <h5 className="media-h5">ITL Trisakti On Media</h5>
               <p className="media-p">
                 Media pembelajaran yang dikembangkan oleh TIM PUBDOK ITL
@@ -16,10 +16,8 @@ export default function Media() {
                 mengunjungi media trisakti dapat <a href="">klik disini</a>
               </p>
             </div>
-            <div className="col-md-5 ms-auto">
+            <div className="col-md-5 ms-auto text-center">
               <iframe
-                width="560"
-                height="315"
                 src="https://www.youtube.com/embed/kknVfOJZ1w0"
                 title="YouTube video player"
                 frameborder="0"

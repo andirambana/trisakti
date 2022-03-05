@@ -56,6 +56,10 @@
   color: #7f9efc;
 }
 
+#navbar .navbar .nav-item .nav-link:active {
+  color: #7f9efc;
+}
+
 #navbar .navbar .btn-pendaftaran {
   font-family: Roboto;
   font-style: normal;

@@ -1,0 +1,41 @@
+#carousel-mtl {
+  .carousel-inner {
+    .carousel-item {
+      .carousel-caption {
+        margin-bottom: 250px;
+        .mtl-h1 {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 50px;
+          line-height: 90px;
+          /* identical to box height */
+          text-align: left;
+          color: #ffffff;
+        }
+        .mtl-h2 {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 50px;
+          line-height: 90px;
+          color: #b0c7ee;
+          text-align: left;
+        }
+        .mtl-h3 {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 50px;
+          line-height: 90px;
+          text-align: left;
+
+          color: #ffffff;
+          span {
+            color: #9fb8fd;
+          }
+        }
+      }
+    }
+  }
+}

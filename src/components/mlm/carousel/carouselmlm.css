@@ -1,1 +1,39 @@
-/* No CSS *//*# sourceMappingURL=carouselmlm.css.map */
+.carousel-inner .carousel-item .carousel-caption {
+  margin-bottom: 250px;
+}
+
+.carousel-inner .carousel-item .carousel-caption .mlm-h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 90px;
+  /* identical to box height */
+  text-align: left;
+  color: #ffffff;
+}
+
+.carousel-inner .carousel-item .carousel-caption .mlm-h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 90px;
+  color: #c7945e;
+  text-align: left;
+}
+
+.carousel-inner .carousel-item .carousel-caption .mlm-h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 90px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.carousel-inner .carousel-item .carousel-caption .mlm-h3 span {
+  color: #9fb8fd;
+}
+/*# sourceMappingURL=carouselmlm.css.map */

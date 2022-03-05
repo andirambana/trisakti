@@ -1,46 +1,124 @@
 import React from "react";
 import styled from "./carousel.css";
 import Gambar from "./../../../img/carousel.jpeg";
+import Gambar1 from "./../../../img/btn-udara.png";
+import Gambar2 from "./../../../img/btn-laut.png";
+import Gambar3 from "./../../../img/btn-logistik.png";
+import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
 // import { useNavigate } from "react-router-dom";
 export default function Carousel() {
   // let navigate = useNavigate();
   return (
-    <div
-      id="carouselExampleCaptions"
-      className="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div className="carousel-inner">
-        <div className="carousel-caption">
-          <h5>Inkubator Usaha Sosial</h5>
-          <p>
-            Disinilah ruang untuk mendukung para pelaku wirausaha sosial lintas
-            sektor agar memberikan lebih banyak dampak positif baik terhadap
-            lingkungan, sosial, dan ekonomi.
-          </p>
-          <h5>Inkubator Usaha Sosial</h5>
-          <p>
-            Disinilah ruang untuk mendukung para pelaku wirausaha sosial lintas
-            sektor agar memberikan lebih banyak dampak positif baik terhadap
-            lingkungan, sosial, dan ekonomi.
-          </p>
-          <h5>Inkubator Usaha Sosial</h5>
-          <p>
-            Disinilah ruang untuk mendukung para pelaku wirausaha sosial lintas
-            sektor agar memberikan lebih banyak dampak positif baik terhadap
-            lingkungan, sosial, dan ekonomi.
-          </p>
-          {/* <Link to="/donate"> */}
-          <button type="button" className="btn btn-primary">
-            Donasi Sekarang
+    <>
+      <section id="carousel-landing">
+        <div
+          id="carouselExampleCaptions"
+          className="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img src={Gambar} className="d-block w-100 gmbr" alt="..." />
+              <div className="carousel-caption d-none d-md-block">
+                <h5 className="carousel-landing-h5">Direktorat Vokasi</h5>
+                <h5 className="carousel-landing-h5">
+                  Institut Transportasi dan Logistik
+                </h5>
+                <h4 className="carousel-landing-h4">Trisakti</h4>
+
+                <div className="row">
+                  <div className="col-md-4">
+                    <Link
+                      className="link-btn"
+                      to="/manajemen-transportasi-udara"
+                    >
+                      <div className="card">
+                        <div className="row">
+                          <div className="col-md-6 my-auto" id="left">
+                            <div className="card-title">D3 MANAJEMEN</div>
+                            <div className="card-title-1">
+                              TRANSPORTASI UDARA
+                            </div>
+                          </div>
+                          <div className="col-md-1" id="right">
+                            <img src={Gambar1} alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                  <div className="col-md-4">
+                    <Link
+                      className="link-btn"
+                      to="/manajemen-transportasi-laut"
+                    >
+                      <div className="card">
+                        <div className="row">
+                          <div className="col-md-6 my-auto" id="left">
+                            <div className="card-title">D3 MANAJEMEN</div>
+                            <div className="card-title-2">
+                              TRANSPORTASI LAUT
+                            </div>
+                          </div>
+                          <div className="col-md-1" id="right">
+                            <img src={Gambar2} alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                  <div className="col-md-4">
+                    <Link
+                      className="link-btn"
+                      to="/manajemen-transportasi-logistik"
+                    >
+                      {" "}
+                      <div className="card">
+                        <div className="row">
+                          <div className="col-md-6 my-auto" id="left">
+                            <div className="card-title">D3 MANAJEMEN</div>
+                            <div className="card-title-3">
+                              TRANSPORTASI LOGISTIK
+                            </div>
+                          </div>
+                          <div className="col-md-1" id="right">
+                            <img src={Gambar3} alt="" />
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            className="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span
+              className="carousel-control-prev-icon"
+              aria-hidden="true"
+            ></span>
+            <span className="visually-hidden">Previous</span>
           </button>
-          {/* </Link> */}
+          <button
+            className="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span
+              className="carousel-control-next-icon"
+              aria-hidden="true"
+            ></span>
+            <span className="visually-hidden">Next</span>
+          </button>
         </div>
-        <div className="carousel-item active">
-          <img src={Gambar} className="d-block w-100" alt="..." />
-        </div>
-      </div>
-    </div>
+      </section>
+    </>
   );
 }

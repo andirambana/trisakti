@@ -1,10 +1,91 @@
-.carousel .carousel-inner .carousel-item {
-  background-color: black;
+#carousel-landing .carousel-inner .carousel-item {
+  background: #000000;
 }
 
-.carousel .carousel-inner .carousel-item img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  opacity: 0.5;
+#carousel-landing .carousel-inner .carousel-item .gmbr {
+  opacity: 0.8;
+}
+
+#carousel-landing .carousel-inner .carousel-item .link-btn {
+  text-decoration: none;
+}
+
+#carousel-landing .carousel-inner .carousel-item .link-btn .card {
+  margin-top: 200px;
+}
+
+#carousel-landing .carousel-inner .carousel-item .link-btn .card #right {
+  margin-left: 5px;
+}
+
+#carousel-landing .carousel-inner .carousel-item .link-btn .card #left {
+  margin-left: 20px;
+}
+
+#carousel-landing .carousel-inner .carousel-item .link-btn .card .card-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  text-align: left;
+}
+
+#carousel-landing .carousel-inner .carousel-item .link-btn .card .card-title-1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 24px;
+  color: #286694;
+  text-align: left;
+}
+
+#carousel-landing .carousel-inner .carousel-item .link-btn .card .card-title-2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 24px;
+  color: #fa8a47;
+  text-align: left;
+}
+
+#carousel-landing .carousel-inner .carousel-item .link-btn .card .card-title-3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 24px;
+  color: #ab2c4a;
+  text-align: left;
+}
+
+#carousel-landing .carousel-inner .carousel-item .carousel-caption {
+  margin-bottom: -20px;
+}
+
+#carousel-landing .carousel-inner .carousel-item .carousel-caption .carousel-landing-h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+}
+
+#carousel-landing .carousel-inner .carousel-item .carousel-caption .carousel-landing-h4 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  /* identical to box height */
+  text-align: center;
+  /* PRIMARY/400 */
+  color: #9fb8fd;
 }
 /*# sourceMappingURL=carousel.css.map */

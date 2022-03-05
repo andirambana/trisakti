@@ -1,5 +1,5 @@
 import React from "react";
-import About from "../../img/sambutan-rektor.png";
+import About from "../../img/direktur-vokasi-1.png";
 import styled from "./sambutan.css";
 export default function Sambutan() {
   return (
@@ -15,13 +15,13 @@ export default function Sambutan() {
                   </div>
                   <div className="row">
                     <div className="col-md-4 me-auto" id="right">
-                      <img src={About} alt="" className="img-fluid"/>
+                      <img src={About} alt="" className="img-fluid" />
                       <span className="direktur">
                         Direktur Vokasi ITL Trisakti
                       </span>{" "}
-                      <br /> <br />
+                      <br />
                       <span className="direktur">
-                        Prof. Dr. John Doe Loripsum, S.T., M.T
+                        Dr. (Cand) Yulianti Keke. SE,M.Si
                       </span>
                     </div>
                     <div className="col-md-7 ms-auto" id="right">

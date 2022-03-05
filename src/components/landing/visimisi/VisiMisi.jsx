@@ -1,6 +1,7 @@
 import styled from "./visimisi.css";
 import React from "react";
-import Direktur from "../../../img/sambutan-rektor.png";
+import Direktur from "../../../img/direktur-vokasi-1.png";
+import { Link } from "react-router-dom";
 export default function VisiMisi() {
   return (
     <div>
@@ -15,7 +16,7 @@ export default function VisiMisi() {
                 <img src={Direktur} alt="" className="img-fluid" />
                 <div className="card-title1">Direktur Vokasi</div>
                 <div className="card-title2">
-                  Prof. Dr. John Doe Loripsum, S.T., M.T
+                  Dr. (Cand) Yulianti Keke. SE,M.Si
                 </div>
                 <div className="card-text">
                   lorem ipsum is simply dummy text of the printing and
@@ -23,9 +24,9 @@ export default function VisiMisi() {
                   standard dummy text ever since the 1500s, when an unknown
                   printer took a galley of type and scrambled it to make a type
                   specimen book. It has survived not only five centuries, but{" "}
-                  <a href="" className="link-direktur">
+                  <Link to="/sambutan-direktur" className="link-direktur">
                     Selengkapnya...
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

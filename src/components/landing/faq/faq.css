@@ -44,4 +44,13 @@
   line-height: 150%;
   color: #000000;
 }
+
+#faq .accordion .accordion-item .accordion-collapse .accordion-body {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #666666;
+}
 /*# sourceMappingURL=faq.css.map */

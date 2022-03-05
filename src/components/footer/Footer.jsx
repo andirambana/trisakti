@@ -5,6 +5,7 @@ import Socmed1 from "../../img/twitter.png";
 import Socmed2 from "../../img/fb.png";
 import Socmed3 from "../../img/email.png";
 import styled from "./footer.css";
+import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div>
@@ -21,17 +22,17 @@ export default function Footer() {
             </div>
             <div className="col-md-3 mx-auto mb-5">
               <h5 className="footer-h5">Program Studi</h5>
-              <a href="" className="link-a">
+              <Link to="/manajemen-transportasi-logistik" className="link-a">
                 Manajemen Logistik dan Material
-              </a>{" "}
+              </Link>{" "}
               <br />
-              <a href="" className="link-a">
+              <Link to="/manajemen-transportasi-laut" className="link-a">
                 Manajemen Transportasi Laut
-              </a>{" "}
+              </Link>{" "}
               <br />
-              <a href="" className="link-a">
+              <Link to="/manajemen-transportasi-udara" className="link-a">
                 Manajemen Transportasi Udara
-              </a>
+              </Link>
             </div>
             <div className="col-md-2 mx-auto mb-5">
               <h5 className="footer-h5">Kontak Kami</h5>

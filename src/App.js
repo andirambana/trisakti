@@ -13,9 +13,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Kkmtu from "./components/Kkmtu";
 import Kkmtl from "./components/Kkmtl";
 import Kkmlm from "./components/Kkmlm";
+import ScrollTop from "./components/ScrollTop";
 function App() {
   render(
     <BrowserRouter>
+      <ScrollTop />
       <Routes>
         <Route path="/" exact element={<Landing />}></Route>
         <Route path="/manajemen-transportasi-udara" element={<Mtu />}></Route>
@@ -37,7 +39,6 @@ function App() {
     // <>
     //   <Organisasi />
     // </>
-    
   );
 }
 

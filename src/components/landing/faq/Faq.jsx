@@ -24,7 +24,7 @@ export default function Faq() {
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      Perbedaan Antara D3 Dengan S1
+                      Perbedaan Antara D3 Dengan S1 Terapan (D4)
                     </button>
                   </h2>
                   <div
@@ -66,15 +66,8 @@ export default function Faq() {
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong>{" "}
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      Waktu kuliah D3 ditempuh dengan waktu 3 Tahun, sedangkan
+                      untuk S1 Terapan (D4) dapat ditemput dengan waktu 4 Tahun.
                     </div>
                   </div>
                 </div>
@@ -98,19 +91,14 @@ export default function Faq() {
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong>{" "}
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      D.III MTU A.Md.Tra (Ahli Madya Manajemen Transportasi
+                      Udara) <br /> D.III MTL A.Md.Tra (Ahli Madya Manajemen
+                      Transportasi Laut) <br /> D.III MLM A.Md.Log (Ahli Madya
+                      Manajemen Logistik)
                     </div>
                   </div>
                 </div>
-                <div class="accordion-item">
+                {/* <div class="accordion-item">
                   <h2 class="accordion-header" id="headingFour">
                     <button
                       class="accordion-button collapsed"
@@ -142,7 +130,7 @@ export default function Faq() {
                       transition does limit overflow.
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

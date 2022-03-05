@@ -1,1 +1,10 @@
-/* No CSS *//*# sourceMappingURL=carousel.css.map */
+.carousel .carousel-inner .carousel-item {
+  background-color: black;
+}
+
+.carousel .carousel-inner .carousel-item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.5;
+}
+/*# sourceMappingURL=carousel.css.map */

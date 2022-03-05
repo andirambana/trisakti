@@ -1,0 +1,11 @@
+.carousel {
+  .carousel-inner {
+    .carousel-item {
+      background-color: black;
+      img {
+        object-fit: cover;
+        opacity: 0.5;
+      }
+    }
+  }
+}

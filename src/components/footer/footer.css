@@ -37,7 +37,11 @@
   color: #ffffff;
 }
 
-#footer .kontak-p {
+#footer .link-sosmed {
+  text-decoration: none;
+}
+
+#footer .link-sosmed .kontak-p {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;

@@ -25,6 +25,10 @@
   padding: 18px 0;
 }
 
+#navbar .navbar .nav-item:active {
+  background-color: transparent;
+}
+
 #navbar .navbar .nav-item .dropdown-menu .dropdown-item {
   font-family: Poppins;
   font-style: normal;
@@ -39,7 +43,6 @@
 }
 
 #navbar .navbar .nav-item .dropdown-menu .dropdown-item:active {
-  background-color: #7f9efc;
   color: #ffffff;
 }
 
@@ -58,6 +61,7 @@
 
 #navbar .navbar .nav-item .nav-link:active {
   color: #7f9efc;
+  background-color: white;
 }
 
 #navbar .navbar .btn-pendaftaran {

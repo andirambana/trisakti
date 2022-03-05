@@ -36,4 +36,22 @@
 .carousel-inner .carousel-item .carousel-caption .mlm-h3 span {
   color: #9fb8fd;
 }
+
+.carousel-inner .carousel-item .carousel-caption .selengkapnya {
+  margin-bottom: -200px;
+}
+
+.carousel-inner .carousel-item .carousel-caption .selengkapnya h6 {
+  margin-top: 200px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: thin;
+  font-size: 22px;
+  line-height: 150%;
+  color: white;
+}
+
+.carousel-inner .carousel-item .carousel-caption .selengkapnya i {
+  color: white;
+}
 /*# sourceMappingURL=carouselmlm.css.map */

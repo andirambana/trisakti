@@ -36,4 +36,22 @@
 #carousel-mtu .carousel-inner .carousel-item .carousel-caption .mtu-h3 span {
   color: #9fb8fd;
 }
+
+#carousel-mtu .carousel-inner .carousel-item .carousel-caption .selengkapnya {
+  margin-bottom: -200px;
+}
+
+#carousel-mtu .carousel-inner .carousel-item .carousel-caption .selengkapnya h6 {
+  margin-top: 200px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: thin;
+  font-size: 22px;
+  line-height: 150%;
+  color: white;
+}
+
+#carousel-mtu .carousel-inner .carousel-item .carousel-caption .selengkapnya i {
+  color: white;
+}
 /*# sourceMappingURL=carouselmtu.css.map */

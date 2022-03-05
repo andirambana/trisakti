@@ -22,36 +22,49 @@ export default function Footer() {
             </div>
             <div className="col-md-3 mx-auto mb-5">
               <h5 className="footer-h5">Program Studi</h5>
-              <Link to="/manajemen-transportasi-logistik" className="link-a">
-                Manajemen Logistik dan Material
-              </Link>{" "}
+              <Link to="/manajemen-transportasi-udara" className="link-a">
+                Manajemen Transportasi Udara
+              </Link>
               <br />
               <Link to="/manajemen-transportasi-laut" className="link-a">
                 Manajemen Transportasi Laut
               </Link>{" "}
               <br />
-              <Link to="/manajemen-transportasi-udara" className="link-a">
-                Manajemen Transportasi Udara
-              </Link>
+              <Link to="/manajemen-transportasi-logistik" className="link-a">
+                Manajemen Logistik dan Material
+              </Link>{" "}
+              
             </div>
             <div className="col-md-2 mx-auto mb-5">
               <h5 className="footer-h5">Kontak Kami</h5>
-              <p className="kontak-p">
-                <img src={Socmed} alt="" />
-                &nbsp; @itl_trisakti_
-              </p>
-              <p className="kontak-p">
-                <img src={Socmed1} alt="" />
-                &nbsp; @itl_trisakti_
-              </p>
-              <p className="kontak-p">
-                <img src={Socmed2} alt="" />
-                &nbsp; ITL_Trisaksi
-              </p>
-              <p className="kontak-p">
-                <img src={Socmed3} alt="" />
-                &nbsp; example@itl.ac.id
-              </p>
+              <Link className="link-sosmed" to="/link-instagram">
+                <p className="kontak-p">
+                  <img src={Socmed} alt="" />
+                  &nbsp; @itl_trisakti_
+                </p>
+              </Link>
+              
+              <Link className="link-sosmed" to="/link-twitter">
+                <p className="kontak-p">
+                  <img src={Socmed1} alt="" />
+                  &nbsp; @Vokasi_STMT
+                </p>
+              </Link>
+              
+              <Link className="link-sosmed" to="/link-facebook">
+                <p className="kontak-p">
+                  <img src={Socmed2} alt="" />
+                  &nbsp; ITL_Trisaksi
+                </p>
+              </Link>
+
+              <Link className="link-sosmed" to="#">
+                <p className="kontak-p">
+                  <img src={Socmed3} alt="" />
+                  &nbsp; example@itl.ac.id
+                </p>
+              </Link>
+              
             </div>
             <div className="col-md-2 ms-auto">
               <h5 className="footer-h5">Pendaftaran</h5>

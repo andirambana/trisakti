@@ -17,9 +17,15 @@ export default function Navbar() {
               0888-2666-7666
             </div>
             <div className="col-md-2 ms-auto" id="right">
-              <img src={Icon1} alt="" />
-              <img src={Icon2} alt="" />
-              <img src={Icon3} alt="" />
+              <Link to="/link-instagram">
+                <img src={Icon1} alt="" />
+              </Link>
+              <Link to="/link-twitter">
+                <img src={Icon2} alt="" />
+              </Link>
+              <Link to="/link-facebook">
+                <img src={Icon3} alt="" />
+              </Link>
               <img src={Icon4} alt="" />
             </div>
 
@@ -191,9 +197,11 @@ export default function Navbar() {
                   </NavLink>
                 </li>
               </ul>
-              <button className="btn btn-primary btn-pendaftaran" type="submit">
-                PENDAFTARAN
-              </button>
+              <Link to="link-pendaftaran">
+                <button className="btn btn-primary btn-pendaftaran" type="submit">
+                  PENDAFTARAN
+                </button>
+              </Link>
             </div>
           </div>
         </nav>

@@ -19,6 +19,16 @@ export default function CarouselMtl() {
                 <h3 className="mtl-h3">
                   Institut Transportasi dan Logistik <span>Trisakti</span>{" "}
                 </h3>
+
+                <div class="d-grid gap-2 col-6 mx-auto selengkapnya mt-5">
+                  <a href="#visi-mtl">
+                    <button class="btn mt-5" type="button">
+                      <h6>selengkapnya</h6>
+                      <i className="fa-solid fa-angles-down"></i>
+                    </button>
+                  </a>
+                </div>
+
               </div>
             </div>
           </div>

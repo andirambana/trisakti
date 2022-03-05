@@ -36,4 +36,22 @@
 #carousel-mtl .carousel-inner .carousel-item .carousel-caption .mtl-h3 span {
   color: #9fb8fd;
 }
+
+#carousel-mtl .carousel-inner .carousel-item .carousel-caption .selengkapnya {
+  margin-bottom: -200px;
+}
+
+#carousel-mtl .carousel-inner .carousel-item .carousel-caption .selengkapnya h6 {
+  margin-top: 200px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: thin;
+  font-size: 22px;
+  line-height: 150%;
+  color: white;
+}
+
+#carousel-mtl .carousel-inner .carousel-item .carousel-caption .selengkapnya i {
+  color: white;
+}
 /*# sourceMappingURL=carouselmtl.css.map */

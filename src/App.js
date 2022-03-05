@@ -14,6 +14,10 @@ import Kkmtu from "./components/Kkmtu";
 import Kkmtl from "./components/Kkmtl";
 import Kkmlm from "./components/Kkmlm";
 import ScrollTop from "./components/ScrollTop";
+import Twitter from "./components/Twitter";
+import Facebook from "./components/Facebook";
+import Instagram from "./components/Instagram";
+import Pendaftaran from "./components/Pendaftaran";
 function App() {
   render(
     <BrowserRouter>
@@ -33,6 +37,10 @@ function App() {
         <Route path="/kurikulum-mtu" element={<Kkmtu />}></Route>
         <Route path="/kurikulum-mtl" element={<Kkmtl />}></Route>
         <Route path="/kurikulum-mlm" element={<Kkmlm />}></Route>
+        <Route path="/link-twitter" element={<Twitter />}></Route>
+        <Route path="/link-facebook" element={<Facebook />}></Route>
+        <Route path="/link-instagram" element={<Instagram />}></Route>
+        <Route path="/link-pendaftaran" element={<Pendaftaran/>}></Route>
       </Routes>
     </BrowserRouter>,
     document.getElementById("root")

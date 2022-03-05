@@ -1,0 +1,38 @@
+#kuri-mtu {
+  background: #C6E9F6;
+}
+
+#kuri-mtu .card {
+  margin: 60px 0;
+  border-color: white;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+#kuri-mtu .card .card-body {
+  padding: 60px;
+}
+
+#kuri-mtu .card .card-body .judul-kuri {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  /* fourth/400 */
+  color: #286694;
+}
+
+#kuri-mtu .card .card-body .card-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+  margin-bottom: 80px;
+  text-align: center;
+  color: #000000;
+}
+/*# sourceMappingURL=kurimtu.css.map */

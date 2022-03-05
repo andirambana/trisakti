@@ -22,6 +22,7 @@ export default function Navbar() {
               <img src={Icon3} alt="" />
               <img src={Icon4} alt="" />
             </div>
+
           </div>
         </div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -90,9 +91,12 @@ export default function Navbar() {
                       </NavLink>
                     </li>
                     <li>
-                      <a className="dropdown-item" href="#">
+                      <NavLink
+                        className="dropdown-item"
+                        to="/struktur-organisasi"
+                      >
                         Struktur Organisasi
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </li>
@@ -137,15 +141,54 @@ export default function Navbar() {
                     </li>
                   </ul>
                 </li>
-                <li className="nav-item ps-3 pe-3">
-                  <a className="nav-link" href="#">
-                    VISI & MISI
-                  </a>
+                <li className="nav-item dropdown ps-3 pe-3">
+                  <NavLink
+                    className="nav-link dropdown-toggle"
+                    to="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    KURIKULUM
+                  </NavLink>
+                  <ul
+                    className="dropdown-menu"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <li>
+                      <NavLink
+                        className="dropdown-item"
+                        to="/kurikulum-mtu"
+                      >
+                        Kurikulum MTU
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        className="dropdown-item"
+                        to="/kurikulum-mtl"
+                      >
+                        Kurikulum MTL
+                      </NavLink>
+                    </li>
+                    <li>
+                      <NavLink
+                        className="dropdown-item"
+                        to="/kurikulum-mlm"
+                      >
+                        Kurikulum MLM
+                      </NavLink>
+                    </li>
+                  </ul>
                 </li>
                 <li className="nav-item ps-3 pe-3">
-                  <a className="nav-link" href="#">
-                    TLM
-                  </a>
+                  <NavLink
+                        className="nav-link"
+                        to="/tlm-vokasi"
+                      >
+                        TLM
+                  </NavLink>
                 </li>
               </ul>
               <button className="btn btn-primary btn-pendaftaran" type="submit">

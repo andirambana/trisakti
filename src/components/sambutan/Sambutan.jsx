@@ -14,8 +14,15 @@ export default function Sambutan() {
                     Sambutan Direktur Vokasi
                   </div>
                   <div className="row">
-                    <div className="col-md-4 me-auto">
-                      <img src={About} alt="" className="img-fluid" />
+                    <div className="col-md-4 me-auto" id="right">
+                      <img src={About} alt="" className="img-fluid"/>
+                      <span className="direktur">
+                        Direktur Vokasi ITL Trisakti
+                      </span>{" "}
+                      <br /> <br />
+                      <span className="direktur">
+                        Prof. Dr. John Doe Loripsum, S.T., M.T
+                      </span>
                     </div>
                     <div className="col-md-7 ms-auto" id="right">
                       lorem ipsum is simply dummy text of the printing and
@@ -62,13 +69,6 @@ export default function Sambutan() {
                       Ipsum passages, and more recently with desktop publishing
                       software like Aldus PageMaker including versions of Lorem
                       Ipsum. <br /> <br /> <br />
-                      <span className="direktur">
-                        Direktur Vokasi ITL Trisakti
-                      </span>{" "}
-                      <br /> <br />
-                      <span className="direktur">
-                        Prof. Dr. John Doe Loripsum, S.T., M.T
-                      </span>
                     </div>
                   </div>
                 </div>

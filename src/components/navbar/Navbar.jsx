@@ -28,7 +28,6 @@ export default function Navbar() {
               </Link>
               <img src={Icon4} alt="" />
             </div>
-
           </div>
         </div>
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -93,7 +92,7 @@ export default function Navbar() {
                         className="dropdown-item"
                         to="/sambutan-direktur"
                       >
-                        Sambutan Rektor
+                        Sambutan Direktur Vokasi
                       </NavLink>
                     </li>
                     <li>
@@ -126,7 +125,7 @@ export default function Navbar() {
                         className="dropdown-item"
                         to="/manajemen-transportasi-udara"
                       >
-                        Transportasi Udara
+                        Manajemen Transportasi Udara
                       </NavLink>
                     </li>
                     <li>
@@ -134,7 +133,7 @@ export default function Navbar() {
                         className="dropdown-item"
                         to="/manajemen-transportasi-laut"
                       >
-                        Transportasi Laut
+                        Manajemen Transportasi Laut
                       </NavLink>
                     </li>
                     <li>
@@ -142,7 +141,7 @@ export default function Navbar() {
                         className="dropdown-item"
                         to="/manajemen-transportasi-logistik"
                       >
-                        Logistik dan Material
+                        Manajemen Logistik dan Material
                       </NavLink>
                     </li>
                   </ul>
@@ -163,42 +162,33 @@ export default function Navbar() {
                     aria-labelledby="navbarDropdown"
                   >
                     <li>
-                      <NavLink
-                        className="dropdown-item"
-                        to="/kurikulum-mtu"
-                      >
+                      <NavLink className="dropdown-item" to="/kurikulum-mtu">
                         Kurikulum MTU
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink
-                        className="dropdown-item"
-                        to="/kurikulum-mtl"
-                      >
+                      <NavLink className="dropdown-item" to="/kurikulum-mtl">
                         Kurikulum MTL
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink
-                        className="dropdown-item"
-                        to="/kurikulum-mlm"
-                      >
+                      <NavLink className="dropdown-item" to="/kurikulum-mlm">
                         Kurikulum MLM
                       </NavLink>
                     </li>
                   </ul>
                 </li>
                 <li className="nav-item ps-3 pe-3">
-                  <NavLink
-                        className="nav-link"
-                        to="/tlm-vokasi"
-                      >
-                        TLM
+                  <NavLink className="nav-link" to="/tlm-vokasi">
+                    TLM
                   </NavLink>
                 </li>
               </ul>
               <Link to="link-pendaftaran">
-                <button className="btn btn-primary btn-pendaftaran" type="submit">
+                <button
+                  className="btn btn-primary btn-pendaftaran"
+                  type="submit"
+                >
                   PENDAFTARAN
                 </button>
               </Link>

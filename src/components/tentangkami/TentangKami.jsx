@@ -31,7 +31,7 @@ export default function TentangKami() {
                       <br /> <br />
                       <ol>
                         <li type="a">
-                          Manajemen Transportasi Udara
+                          Program Studi Manajemen Transportasi Udara
                           <ol type="i">
                             <li>Peminatan di Airline and Travel Industry</li>
                             <li>Peminatan di Manajemen Bandar Udara</li>
@@ -40,7 +40,7 @@ export default function TentangKami() {
                         </li>{" "}
                         <br />
                         <li type="a">
-                          Manajemen Transportasi Laut
+                          Program Studi Manajemen Transportasi Laut
                           <ol type="i">
                             <li>Peminatan di Port Management</li>
                             <li>Peminatan di Shipping Management</li>
@@ -48,7 +48,7 @@ export default function TentangKami() {
                         </li>
                         <br />
                         <li type="a">
-                          Manajemen Transportasi Logistik
+                          Program Studi Manajemen Transportasi Logistik
                           <ol type="i">
                             <li>Peminatan di Retail Management</li>
                             <li>Peminatan di Warehouse Management</li>

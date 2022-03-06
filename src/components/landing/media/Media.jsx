@@ -18,7 +18,7 @@ export default function Media() {
             </div>
             <div className="col-md-5 ms-auto text-center">
               <iframe
-                src="https://www.youtube.com/embed/kknVfOJZ1w0"
+                src="https://www.youtube.com/embed/sB_tQrQoIeE"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -40,14 +40,14 @@ export default function Footer() {
               <Link className="link-sosmed" to="/link-instagram">
                 <p className="kontak-p">
                   <img src={Socmed} alt="" />
-                  &nbsp; @itl_trisakti_
+                  &nbsp; itl_trisakti_
                 </p>
               </Link>
               
               <Link className="link-sosmed" to="/link-twitter">
                 <p className="kontak-p">
                   <img src={Socmed1} alt="" />
-                  &nbsp; @Vokasi_STMT
+                  &nbsp; Vokasi_STMT
                 </p>
               </Link>
               
@@ -84,7 +84,7 @@ export default function Footer() {
           <hr />
           <div className="row text-center">
             <p className="akhir-p">
-              Hak Cipta © 2022 Program Vokasi Institut Transportasi dan Logistik
+              Hak Cipta © 2022 Direktorat Vokasi Institut Transportasi dan Logistik
               Trisakti
             </p>
           </div>

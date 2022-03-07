@@ -16,7 +16,7 @@ export default function VisiMtl() {
                 <hr className="mx-auto" />
                 <div className="card-body">
                   Pada tahun 2027, Menjadi Program Studi yang Unggul dalam
-                  Membangun Ahli Madya dibidang Manajemen Oprasi dan
+                  Membangun Ahli Madya dibidang Manajemen Operasi dan
                   PelayananTransportasi Laut Yang Bereputasi Global
                 </div>
               </div>

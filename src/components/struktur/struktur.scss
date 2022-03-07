@@ -15,9 +15,11 @@
         font-size: 24px;
         line-height: 36px;
         /* identical to box height */
-        margin-bottom: 80px;
         text-align: center;
         color: #000000;
+      }
+      .vokasi {
+        margin-bottom: 80px;
       }
       span {
         font-family: Poppins;
@@ -26,8 +28,7 @@
         font-size: 14px;
         line-height: 21px;
         display: flex;
-        align-items: center;
-        text-align: center;
+        text-align: left;
         margin-top: 30px;
         color: #000000;
       }

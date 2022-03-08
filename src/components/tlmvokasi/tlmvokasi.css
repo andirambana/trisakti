@@ -24,8 +24,11 @@
   font-size: 14px;
   line-height: 21px;
   text-align: justify;
-  letter-spacing: 0.035em;
   color: #000000;
+}
+
+#tlm .card .card-body p ol li {
+  text-align: left;
 }
 
 #tlm .card .card-body .bold {

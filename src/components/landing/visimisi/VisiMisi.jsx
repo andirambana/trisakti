@@ -45,38 +45,56 @@ export default function VisiMisi() {
                 <div className="card-title text-center">Misi</div>
                 <hr className="mx-auto" />
                 <div className="card-body">
-                  1. Menyelenggarakan proses pembelajaran manajemen transportasi
-                  laut, manajemen transportasi udara dan manajemen logistik dan
-                  material berdasarkan Standar Mutu Nasional dan Internasional{" "}
-                  <br /> <br />
-                  2. Menyelenggarakan penelitian dan kajian pengetahuan baru
-                  bidang manajemen transportasi laut, manajemen transportasi
-                  udara dan manajemen logistik dan material sesuai kebutuhan
-                  bangsa dan dunia <br /> <br />
-                  3. Melaksanakan pelayanan pelatihan, konsultasi, dan
-                  memberikan masukan kepada pemerintah dan pelaku industri
-                  terhadap upaya untuk mengatasi maslalah transportasi laut
-                  lingkup nasional dan internasional
+                  <ol type="1">
+                    <li>
+                      Menyelenggarakan proses pembelajaran manajemen
+                      transportasi laut, manajemen transportasi udara dan
+                      manajemen logistik dan material berdasarkan Standar Mutu
+                      Nasional dan Internasional.
+                    </li>{" "}
+                    <br />
+                    <li>
+                      Menyelenggarakan penelitian dan kajian pengetahuan baru
+                      bidang manajemen transportasi laut, manajemen transportasi
+                      udara dan manajemen logistik dan material sesuai kebutuhan
+                      bangsa dan dunia.
+                    </li>{" "}
+                    <br />
+                    <li>
+                      Melaksanakan pelayanan pelatihan, konsultasi, dan
+                      memberikan masukan kepada pemerintah dan pelaku industri
+                      terhadap upaya untuk mengatasi maslalah transportasi laut
+                      lingkup nasional dan internasional
+                    </li>
+                  </ol>
                 </div>
               </div>
               <div className="card mx-auto shadow-sm mt-1">
                 <div className="card-title text-center">Tujuan</div>
                 <hr className="mx-auto" />
                 <div className="card-body">
-                  1. Menghasilkan lulusan yang menguasai ilmu pengetahuan dan
-                  teknologi bidang manajemen transportasi laut, manajemen
-                  transportasi udara dan manajemen logistik dan material yang
-                  cerdas dan kompetitif <br />
-                  <br />
-                  2. Menghasilkan karya penelitian yang mendukung kualitas
-                  proses pembelajaran penerapan ilmu pengetahuan dan teknologi
-                  bidang manajemen transportasi laut, manajemen transportasi
-                  udara, dan manajemen logistik dan material <br />
-                  <br />
-                  3. Terlaksananya kegiatan pengabdian kepada masyarakat dan
-                  kerjasama bidang manajemen transportasi laut, manajemen
-                  transportasi udara dan manajemen logistik dan material secara
-                  profesional dan bermartabat.
+                  <ol type="1">
+                    <li>
+                      Menghasilkan lulusan yang menguasai ilmu pengetahuan dan
+                      teknologi bidang manajemen transportasi laut, manajemen
+                      transportasi udara dan manajemen logistik dan material
+                      yang cerdas dan kompetitif.
+                    </li>{" "}
+                    <br />
+                    <li>
+                      Menghasilkan karya penelitian yang mendukung kualitas
+                      proses pembelajaran penerapan ilmu pengetahuan dan
+                      teknologi bidang manajemen transportasi laut, manajemen
+                      transportasi udara, dan manajemen logistik dan material.
+                    </li>{" "}
+                    <br />
+                    <li>
+                      Terlaksananya kegiatan pengabdian kepada masyarakat dan
+                      kerjasama bidang manajemen transportasi laut, manajemen
+                      transportasi udara dan manajemen logistik dan material
+                      secara profesional dan bermartabat.
+                    </li>
+                  </ol>
                 </div>
               </div>
             </div>

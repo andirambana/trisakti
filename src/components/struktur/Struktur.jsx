@@ -27,11 +27,28 @@ export default function TlmVokasi() {
                     <img src={Gambar2} alt="" className="img-fluid mx-auto" />
                   </div>
                   <span>
-                    Keterangan : <br/>
-                    1. Direktur Vokasi - Dr. (Cand) Yulianti Keke, SE, M.Si. <br/>
-                    2. Kaprodi D3 MTU - Dr. (Cand) Mustika Sari, MMTr. <br/>
-                    3. Kaprodi D3 MTL - Dr. (Cand) Reza Fauzi Jayasakti, SE, MMTr. <br/>
-                    4. Kaprodi D3 MLM - Dr. (Cand) Asep Ali Thabah, AMTrD, MMTr. <br/>
+                    Keterangan : <br />
+                  </span>
+                  <span>
+                    <ol type="1">
+                      <li>
+                        Direktur Vokasi - Dr. (Cand) Yulianti Keke, SE, M.Si.
+                      </li>{" "}
+                      <br />
+                      <li>
+                        Kaprodi D3 MTU - Dr. (Cand) Mustika Sari, MMTr.
+                      </li>{" "}
+                      <br />
+                      <li>
+                        Kaprodi D3 MTL - Dr. (Cand) Reza Fauzi Jayasakti, SE,
+                        MMTr.
+                      </li>{" "}
+                      <br />
+                      <li>
+                        Kaprodi D3 MLM - Dr. (Cand) Asep Ali Thabah, AMTrD,
+                        MMTr.
+                      </li>
+                    </ol>
                   </span>
                 </div>
               </div>

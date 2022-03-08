@@ -55,12 +55,7 @@ export default function Navbar() {
             >
               <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li className="nav-item ps-3 pe-3">
-                  <NavLink
-                    to="/"
-                    className="nav-link"
-                    activeClassName="nav-link-active"
-                    aria-current="page"
-                  >
+                  <NavLink to="/" className="nav-link" aria-current="page">
                     BERANDA
                   </NavLink>
                   {/* <a className="nav-link active" aria-current="page" href="#">

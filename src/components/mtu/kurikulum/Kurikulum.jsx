@@ -9,6 +9,7 @@ import Kurikulum6 from "../../../img/kurikulum-mtu6.png";
 import Kurikulum7 from "../../../img/kurikulum-mtu7.png";
 import Kurikulum8 from "../../../img/kurikulum-mtu8.png";
 import Kurikulum9 from "../../../img/kurikulum-mtu9.png";
+import { Link } from "react-router-dom";
 export default function Kurikulum() {
   return (
     <div>
@@ -92,9 +93,11 @@ export default function Kurikulum() {
             </div>
           </div>
           <center>
-            <button type="button" class="btn btn-primary btn-kurikulum mx-auto">
-              Selengkapnya
-            </button>
+            <Link to="/kurikulum-mtu">
+              <button type="button" class="btn btn-primary btn-kurikulum mx-auto">
+                Selengkapnya
+              </button>
+            </Link>
           </center>
         </div>
       </section>

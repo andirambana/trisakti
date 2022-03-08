@@ -1,6 +1,6 @@
 import React from "react";
-import Gambar1 from "../../img/struktur1.png";
-import Gambar2 from "../../img/struktur2.png";
+import Gambar1 from "../../img/bagan-vokasi.png";
+import Gambar2 from "../../img/bagan-vokasi-direktorat.png";
 import styled from "./struktur.css";
 
 export default function TlmVokasi() {
@@ -21,17 +21,17 @@ export default function TlmVokasi() {
                       alt=""
                       className="img-fluid w-75 mb-5 mx-auto"
                     />
-                    <div className="card-title text-center mt-5">
+                    <div className="card-title text-center mt-5 vokasi">
                       Direktorat Vokasi
                     </div>
                     <img src={Gambar2} alt="" className="img-fluid mx-auto" />
                   </div>
                   <span>
-                    Keterangan : (urutan dari kiri ke kanan) 1. Kaprodi D3 MLM -
-                    Dr. (Cand) Asep Ali Thabah, AMTrD, MMTr. 2. Direktur Vokasi
-                    - Dr. (Cand) Yulianti Keke, SE, M.Si. 3. Kaprodi D3 MTU -
-                    Dr. (Cand) Mustika Sari, MMTr. 4. Kaprodi D3 MTL - Dr.
-                    (Cand) Reza Fauzi Jayasakti, SE, MMTr.
+                    Keterangan : <br/>
+                    1. Direktur Vokasi - Dr. (Cand) Yulianti Keke, SE, M.Si. <br/>
+                    2. Kaprodi D3 MTU - Dr. (Cand) Mustika Sari, MMTr. <br/>
+                    3. Kaprodi D3 MTL - Dr. (Cand) Reza Fauzi Jayasakti, SE, MMTr. <br/>
+                    4. Kaprodi D3 MLM - Dr. (Cand) Asep Ali Thabah, AMTrD, MMTr. <br/>
                   </span>
                 </div>
               </div>

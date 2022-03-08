@@ -20,9 +20,12 @@
   font-size: 24px;
   line-height: 36px;
   /* identical to box height */
-  margin-bottom: 80px;
   text-align: center;
   color: #000000;
+}
+
+#struktur .card .card-body .vokasi {
+  margin-bottom: 80px;
 }
 
 #struktur .card .card-body span {
@@ -34,10 +37,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
+  text-align: left;
   margin-top: 30px;
   color: #000000;
 }

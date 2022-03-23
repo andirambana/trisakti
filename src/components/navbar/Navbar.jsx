@@ -13,8 +13,7 @@ export default function Navbar() {
         <div className="container" id="nav">
           <div className="row">
             <div className="col-md-4 me-auto" id="left">
-              CALL US : <span> 021-851-6050</span> | 0821-7892-8892 |
-              0888-2666-7666
+              CALL US : <span> (021) 851-6050 </span>
             </div>
             <div className="col-md-2 ms-auto" id="right">
               <Link to="/link-instagram">

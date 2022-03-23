@@ -15,7 +15,7 @@ export default function VisiMisi() {
                 </div>
                 <img src={Direktur} alt="" className="img-fluid" />
                 <div className="card-title1">
-                  Dr. (Cand) Yulianti Keke. SE,M.Si
+                  Yulianti Keke, SE, M.Si
                 </div>
                 <div className="card-title2">
                   Direktur Vokasi<br/>
@@ -23,12 +23,13 @@ export default function VisiMisi() {
                 </div>
                 <div className="card-text">
                   Assalamu’alaikum wr.wb. <br/>
-                  Salam Vokasi Kuat Menguatkan Indonesia<br />
-                  Puji Syukur pada Tuhan Yang Maha Esa, pada ... Februari 2018, STMT Trisakti berubah menjadi 
-                  Institut Transportasi dan Logistik Trisakti (ITL Trisakti) dan pada saat itu juga program 
-                  studi Diploma 3 (Ahli Madya) ITL Trisakti yang sedianya berada di bawah naungan langsung 
-                  dari Sekolah Tinggi Manajemen Transportasi dan Logistik Trisakti, pada tanggal ... Februari 
-                  2018 program studi Diploma 3{" "}
+                  Salam Vokasi Kuat Menguatkan Indonesia,<br />
+                  Puji Syukur pada Tuhan Yang Maha Esa, pada 7 Februari 2018, STMT Trisakti berubah menjadi 
+                    Institut Transportasi dan Logistik Trisakti (ITL Trisakti) melalui Surat Keputusan Menteri 
+                    Riset, Teknologi dan Pendidikan Tinggi Republik Indoensia Nomor : 176/KPT/I/2018 tentang 
+                    Izin Perubahan Bentuk Sekolah Tinggi Manajemen Transportasi Trisakti di Jakarta menjadi 
+                    Institut Transportasi dan Logistik Trisakti di Jakarta yang diselenggarakan oleh Yayasan 
+                    Trisakti,{" "}
                   <Link to="/sambutan-direktur" className="link-direktur">
                     Selengkapnya...
                   </Link>

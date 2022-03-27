@@ -79,7 +79,7 @@ export default function Carousel() {
                           <div className="col-md-6 my-auto" id="left">
                             <div className="card-title">D3 MANAJEMEN</div>
                             <div className="card-title-3">
-                              TRANSPORTASI LOGISTIK
+                              LOGISTIK DAN MATERIAL
                             </div>
                           </div>
                           <div className="col-md-1" id="right">

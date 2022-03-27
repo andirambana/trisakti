@@ -47,6 +47,27 @@ import Dalam41 from "../../../img/dalam-41.png";
 import Dalam42 from "../../../img/dalam-42.png";
 import Dalam43 from "../../../img/dalam-43.png";
 import Dalam44 from "../../../img/dalam-44.png";
+import Dalam45 from "../../../img/dalam-45.png";
+import Dalam46 from "../../../img/dalam-46.png";
+import Dalam47 from "../../../img/dalam-47.png";
+import Dalam48 from "../../../img/dalam-48.png";
+import Dalam49 from "../../../img/dalam-49.png";
+import Dalam50 from "../../../img/dalam-50.png";
+import Dalam51 from "../../../img/dalam-51.png";
+import Dalam52 from "../../../img/dalam-52.png";
+import Dalam53 from "../../../img/dalam-53.png";
+import Dalam54 from "../../../img/dalam-54.png";
+import Dalam55 from "../../../img/dalam-55.png";
+import Dalam56 from "../../../img/dalam-56.png";
+import Dalam57 from "../../../img/dalam-57.png";
+import Dalam58 from "../../../img/dalam-58.png";
+import Dalam59 from "../../../img/dalam-59.png";
+import Dalam60 from "../../../img/dalam-60.png";
+import Dalam61 from "../../../img/dalam-61.png";
+import Dalam62 from "../../../img/dalam-62.png";
+import Dalam63 from "../../../img/dalam-63.png";
+import Dalam64 from "../../../img/dalam-64.png";
+import Dalam65 from "../../../img/dalam-65.png";
 
 export default function KerjasamaDalam() {
   var settings = {
@@ -224,6 +245,69 @@ export default function KerjasamaDalam() {
               </div>
               <div>
                 <img src={Dalam44} alt="" />
+              </div>
+              <div>
+                <img src={Dalam45} alt="" />
+              </div>
+              <div>
+                <img src={Dalam46} alt="" />
+              </div>
+              <div>
+                <img src={Dalam47} alt="" />
+              </div>
+              <div>
+                <img src={Dalam48} alt="" />
+              </div>
+              <div>
+                <img src={Dalam49} alt="" />
+              </div>
+              <div>
+                <img src={Dalam50} alt="" />
+              </div>
+              <div>
+                <img src={Dalam51} alt="" />
+              </div>
+              <div>
+                <img src={Dalam52} alt="" />
+              </div>
+              <div>
+                <img src={Dalam53} alt="" />
+              </div>
+              <div>
+                <img src={Dalam54} alt="" />
+              </div>
+              <div>
+                <img src={Dalam55} alt="" />
+              </div>
+              <div>
+                <img src={Dalam56} alt="" />
+              </div>
+              <div>
+                <img src={Dalam57} alt="" />
+              </div>
+              <div>
+                <img src={Dalam58} alt="" />
+              </div>
+              <div>
+                <img src={Dalam59} alt="" />
+              </div>
+              <div>
+                <img src={Dalam60} alt="" />
+              </div>
+              <div>
+                <img src={Dalam61} alt="" />
+              </div>
+              <div>
+                <img src={Dalam62} alt="" />
+              </div>
+              <div>
+                <img src={Dalam63} alt="" />
+              </div>
+              <div>
+                <img src={Dalam64} alt="" />
+              </div>
+              <div>
+                <img src={Dalam65} alt="" />
               </div>
             </Slider>
           </div>

@@ -14,16 +14,22 @@ export default function VisiMisi() {
                   Sambutan <span>Direktur</span>{" "}
                 </div>
                 <img src={Direktur} alt="" className="img-fluid" />
-                <div className="card-title1">Direktur Vokasi</div>
+                <div className="card-title1">
+                  Yulianti Keke, SE, M.Si
+                </div>
                 <div className="card-title2">
-                  Dr. (Cand) Yulianti Keke. SE,M.Si
+                  Direktur Vokasi<br/>
+                  Institut Transportasi dan Logistik Trisakti <br/><br/>
                 </div>
                 <div className="card-text">
-                  lorem ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but{" "}
+                  Assalamu’alaikum wr.wb. <br/>
+                  Salam Vokasi Kuat Menguatkan Indonesia,<br />
+                  Puji Syukur pada Tuhan Yang Maha Esa, pada 7 Februari 2018, STMT Trisakti berubah menjadi 
+                    Institut Transportasi dan Logistik Trisakti (ITL Trisakti) melalui Surat Keputusan Menteri 
+                    Riset, Teknologi dan Pendidikan Tinggi Republik Indoensia Nomor : 176/KPT/I/2018 tentang 
+                    Izin Perubahan Bentuk Sekolah Tinggi Manajemen Transportasi Trisakti di Jakarta menjadi 
+                    Institut Transportasi dan Logistik Trisakti di Jakarta yang diselenggarakan oleh Yayasan 
+                    Trisakti,{" "}
                   <Link to="/sambutan-direktur" className="link-direktur">
                     Selengkapnya...
                   </Link>

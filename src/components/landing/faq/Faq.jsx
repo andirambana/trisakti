@@ -1,100 +1,101 @@
 import React from "react";
 import styled from "./faq.css";
 export default function Faq() {
-  return (
-    <div>
-      <section id="faq">
-        <div className="container">
-          <div className="row text-center">
-            <h5 className="faq-h5">FAQ</h5>
-            <p className="faq-p">
-              Pertanyaan yang Sering <span>Ditanyakan</span>
-            </p>
-          </div>
-          <div className="row">
-            <div className="col-md-8 mx-auto">
-              <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button
-                      class="accordion-button"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne"
-                      aria-expanded="true"
-                      aria-controls="collapseOne"
-                    >
-                      Perbedaan Antara D3 Dengan S1 Terapan (D4)
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseOne"
-                    class="accordion-collapse collapse show"
-                    aria-labelledby="headingOne"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div class="accordion-body">
-                      Program D3 akan mendapatkan gelar A.Md. atau Ahli Madya (Sarjana Muda)
-                      setelah menempuh pendidikan selama 3 Tahun. Sedangkan untuk Program 
-                      D4 masa pendidikan yang ditempuh setara dengan jenjang Sarjana, yaitu 
-                      4 tahun dengan sks perkuliahan sebanyak 144 - 160 sks. Gelar yang 
-                      diperoleh lulusan D4 adalah S.Tr atau Sarjana Terapan.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="collapseTwo"
-                    >
-                      Lamanya Waktu Kuliah
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseTwo"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="headingTwo"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div class="accordion-body">
-                      Waktu kuliah D3 ditempuh dengan waktu 3 Tahun, sedangkan
-                      untuk S1 Terapan (D4) dapat ditemput dengan waktu 4 Tahun.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button
-                      class="accordion-button collapsed"
-                      type="button"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseThree"
-                      aria-expanded="false"
-                      aria-controls="collapseThree"
-                    >
-                      Gelar Setelah Lulus Kuliah
-                    </button>
-                  </h2>
-                  <div
-                    id="collapseThree"
-                    class="accordion-collapse collapse"
-                    aria-labelledby="headingThree"
-                    data-bs-parent="#accordionExample"
-                  >
-                    <div class="accordion-body">
-                      D.III MTU A.Md.Tra (Ahli Madya Manajemen Transportasi
-                      Udara) <br /> D.III MTL A.Md.Tra (Ahli Madya Manajemen
-                      Transportasi Laut) <br /> D.III MLM A.Md.Log (Ahli Madya
-                      Manajemen Logistik)
-                    </div>
-                  </div>
-                </div>
-                {/* <div class="accordion-item">
+	return (
+		<div>
+			<section id="faq">
+				<div className="container">
+					<div className="row text-center">
+						<h5 className="faq-h5">FAQ</h5>
+						<p className="faq-p">
+							Pertanyaan yang Sering <span>Ditanyakan</span>
+						</p>
+					</div>
+					<div className="row">
+						<div className="col-md-8 mx-auto">
+							<div class="accordion" id="accordionExample">
+								<div class="accordion-item">
+									<h2 class="accordion-header" id="headingOne">
+										<button
+											class="accordion-button"
+											type="button"
+											data-bs-toggle="collapse"
+											data-bs-target="#collapseOne"
+											aria-expanded="true"
+											aria-controls="collapseOne"
+										>
+											Perbedaan Antara D3 Dengan S1 Terapan (D4)
+										</button>
+									</h2>
+									<div
+										id="collapseOne"
+										class="accordion-collapse collapse show"
+										aria-labelledby="headingOne"
+										data-bs-parent="#accordionExample"
+									>
+										<div class="accordion-body">
+											Program D3 akan mendapatkan gelar A.Md. atau Ahli Madya
+											(Sarjana Muda) setelah menempuh pendidikan selama 3 Tahun.
+											Sedangkan untuk Program D4 masa pendidikan yang ditempuh
+											setara dengan jenjang Sarjana, yaitu 4 tahun dengan sks
+											perkuliahan sebanyak 144 - 160 sks. Gelar yang diperoleh
+											lulusan D4 adalah S.Tr atau Sarjana Terapan.
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item">
+									<h2 class="accordion-header" id="headingTwo">
+										<button
+											class="accordion-button collapsed"
+											type="button"
+											data-bs-toggle="collapse"
+											data-bs-target="#collapseTwo"
+											aria-expanded="false"
+											aria-controls="collapseTwo"
+										>
+											Lamanya Waktu Kuliah
+										</button>
+									</h2>
+									<div
+										id="collapseTwo"
+										class="accordion-collapse collapse"
+										aria-labelledby="headingTwo"
+										data-bs-parent="#accordionExample"
+									>
+										<div class="accordion-body">
+											Waktu kuliah D3 ditempuh dengan waktu 3 Tahun, sedangkan
+											untuk S1 Terapan (D4) dapat ditempuh dengan waktu 4 Tahun.
+										</div>
+									</div>
+								</div>
+								<div class="accordion-item">
+									<h2 class="accordion-header" id="headingThree">
+										<button
+											class="accordion-button collapsed"
+											type="button"
+											data-bs-toggle="collapse"
+											data-bs-target="#collapseThree"
+											aria-expanded="false"
+											aria-controls="collapseThree"
+										>
+											Gelar Setelah Lulus Kuliah
+										</button>
+									</h2>
+									<div
+										id="collapseThree"
+										class="accordion-collapse collapse"
+										aria-labelledby="headingThree"
+										data-bs-parent="#accordionExample"
+									>
+										<div class="accordion-body">
+											D.III MTU A.Md.Tra (Ahli Madya Manajemen Transportasi
+											Udara) <br /> D.III MTL A.Md.Tra (Ahli Madya Manajemen
+											Transportasi Laut) <br /> D.III MLM A.Md.Log (Ahli Madya
+											Manajemen Logistik)
+										</div>
+									</div>
+								</div>
+								{/* <div class="accordion-item">
                   <h2 class="accordion-header" id="headingFour">
                     <button
                       class="accordion-button collapsed"
@@ -127,11 +128,11 @@ export default function Faq() {
                     </div>
                   </div>
                 </div> */}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	);
 }
